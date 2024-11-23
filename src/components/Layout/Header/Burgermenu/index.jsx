@@ -23,6 +23,7 @@ const Burger = () => {
           <li className={css.item}> Order online</li>
           <li className={css.item}> Reservation</li>
           <li className={css.item}> Contact us</li>
+          <button className={css.burger__button}>Log in </button>
         </ul>
     </>
   )
