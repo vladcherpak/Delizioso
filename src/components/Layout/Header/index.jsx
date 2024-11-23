@@ -11,8 +11,8 @@ const Header = () => {
       <div className={css.wrapper}>
         <Logo/>
         <div className={css.header__inner}>
-          <button>
-            <Image src={cart} width={24} height={24}/>
+          <button className={css.cart}>
+            <Image  src={cart} width={24} height={24}/>
           </button>
           <Burger/>
         </div>
