@@ -1,0 +1,107 @@
+.hero {
+    padding: 40px 0;
+    padding-bottom: 30px;
+  }
+  .small__info {
+    display: block;
+    width: 93px;
+    border-radius: 126px;
+    background-color: rgb(255, 138, 0.2);
+    color: rgb(152, 84, 0);
+    text-align: center;
+    font-size: 12px;
+    vertical-align: middle;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 16px;
+  }
+  .title {
+    font-size: 60px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    line-height: 100%;
+  }
+  .description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 200%;
+    margin-bottom: 40px;
+    max-width: 450px;
+    width: 100%;
+  }
+  .button__inner {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .btn__order {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    width: 139.1px;
+    height: 44.55px;
+    border-radius: 97.52px;
+    background-color: rgb(255, 138, 0);
+    cursor: pointer;
+  }
+  .btn__reservation {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    width: 139.1px;
+    height: 44.55px;
+    border-radius: 97.52px;
+    background-color: rgb(63, 167, 47);
+    cursor: pointer;
+  }
+  .image__inner {
+    display: flex;
+    justify-content: center;
+  }
+  .img {
+    width: 310px;
+    height: 310px;
+  }
+  @media screen and (min-width: 520px) {
+    .hero{
+      padding-bottom: 50px;
+    }
+      .img {
+      width: 400px;
+      height: 400px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .hero{
+      padding-bottom: 100px;
+    }
+      .img {
+      width: 500px;
+      height: 500px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+   .hero{
+      padding-top: 106px;
+      padding-bottom: 150px;
+   }
+      .inner {
+      display: flex;
+      justify-content: center;
+    }
+    .img {
+      width: 500px;
+      height: 500px;
+    }
+    .title {
+      font-size: 80px;
+      width: 288px;
+    }
+    .description {
+      font-size: 20px;
+    }
+    
+  }
