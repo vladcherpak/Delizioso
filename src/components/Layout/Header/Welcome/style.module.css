@@ -1,17 +1,15 @@
 .welcome {
   background-color: #3fc66e46;
+  padding-bottom: 20px;
 }
 
 .img {
-  height: 690px;
-  width: 706px;
+  height: 670px;
+  max-width: 700px;
   width: 100%;
   object-fit: contain;
 }
 
-.container {
-  padding: 0px !important;
-}
 
 .main {
   display: flex;
@@ -28,7 +26,6 @@
   align-items: center;
   justify-content: center;
   max-width: 768px;
-
   padding:0  15px;
   gap: 60px;
 }
