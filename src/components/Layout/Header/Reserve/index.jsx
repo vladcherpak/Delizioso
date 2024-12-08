@@ -13,7 +13,7 @@ const Reserve = () => {
               <Image className={css.img} src={reserveImage} alt="Image" />
             </div>
             <div className={css.inner}>
-              <h2 className={css.title}>Let's reserve  <span className={css.span}> a table</span></h2>
+              <h2 className={css.title}>Let&apos;s reserve  <span className={css.span}> a table</span></h2>
               <p className={css.text}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Facilisis ultricies at eleifend proin. Congue nibh nulla

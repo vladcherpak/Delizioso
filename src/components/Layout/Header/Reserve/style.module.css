@@ -1,5 +1,7 @@
 .reserve {
     background-color: var(--fourth-color);
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
   
   .img {
