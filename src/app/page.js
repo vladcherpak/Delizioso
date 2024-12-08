@@ -1,6 +1,8 @@
-import Hero from "@/components/Layout/Header/Hero";
-import Welcome from "@/components/Layout/Header/Welcome";
-import Reserve from "@/components/Layout/Header/Reserve";
+import Hero from "@/components/Hero";
+import Welcome from "@/components/Welcome";
+import Reserve from "@/components/Reserve";
+import Chef from "@/components/Chef";
+import Feedback from "@/components/Feedback";
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
     <Hero/>
     <Welcome/>
     <Reserve/>
+    <Chef/>
+    <Feedback/>
     </>
   );
 }
