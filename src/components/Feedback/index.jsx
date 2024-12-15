@@ -13,8 +13,8 @@ const Feedback = () => {
             <div >
               <Image className={css.image__wrapper} src={feedback__image} alt="woman" />
             </div>
-            <p className={css.work}>Financial advisor</p>
             <p className={css.name}>Starla Virgoun</p>
+            <p className={css.work}>Financial advisor</p>
             <p className={css.text}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis
               ultricies at eleifend proin. Congue nibh nulla malesuada ultricies

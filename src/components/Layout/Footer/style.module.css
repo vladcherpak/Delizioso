@@ -1,0 +1,38 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    color: white;
+    padding: 50px;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footer{
+    background-color: #311F09;
+}
+
+.list h2{
+    color: #FF8A00;
+}
+
+.list{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text__inner{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text__inner p{
+    max-width: 300px;
+    
+}

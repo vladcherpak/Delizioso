@@ -11,17 +11,23 @@
 
 .title{
     font-size: 40px;
+
 }
 
 .name{
     font-size: 20px;
     font-weight: 600;
+}
+
+.work{
+    color: #5C4529;
     padding-bottom: 40px;
 }
 
 .text{
     max-width: 450px;
     text-align: center;
+    color: #5C4529;
 }
 .image__wrapper{
     max-width: 150px;
